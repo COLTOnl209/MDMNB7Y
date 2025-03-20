@@ -1,4 +1,3 @@
-[run]
 omit =
     jedi/_compatibility.py
     jedi/inference/compiled/subprocess/__main__.py
