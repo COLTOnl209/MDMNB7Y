@@ -1,7 +1,6 @@
 omit =
     jedi/_compatibility.py
     jedi/inference/compiled/subprocess/__main__.py
-    jedi/__main__.py
     # For now this is not being used.
 
 [report]
