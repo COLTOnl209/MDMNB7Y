@@ -235,7 +235,6 @@ clear
 kubectl get pod --watch
 ```
 
-</p>
 </details>
 <br />
 
