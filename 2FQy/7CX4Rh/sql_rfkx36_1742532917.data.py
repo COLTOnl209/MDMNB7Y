@@ -237,7 +237,6 @@ def main():
 
     except (SqlmapSilentQuitException, bdb.BdbQuit):
         pass
-
     except SqlmapShellQuitException:
         cmdLineOptions.sqlmapShell = False
 
