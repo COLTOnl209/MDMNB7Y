@@ -565,7 +565,6 @@ def main():
             for prefix in (MKSTEMP_PREFIX.IPC, MKSTEMP_PREFIX.TESTING, MKSTEMP_PREFIX.COOKIE_JAR, MKSTEMP_PREFIX.BIG_ARRAY):
                 for filepath in glob.glob(os.path.join(kb.tempDir, "%s*" % prefix)):
                     try:
-                        os.remove(filepath)
                     except OSError:
                         pass
 
